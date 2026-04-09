@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5fd;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: white;
+    width: 100vw;
+    height: 8vh;
+    margin-bottom: 3%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+
+.nav-title {
+    color: #76c5f5;
+}
+
+.nav-logo {
+    height: clamp(30px, 5vh, 60px);
+    width: auto;
+}
+
+.content-container {
+    background-color: white;
+    width: 90vw;
+    max-width: 600px;
+    padding: 2% 2%;
+    border: 2px solid #EBECF0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.pfp-input-container {
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.pfp-border {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.pfp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tweet-input {
+    width: 100%;
+    min-height: 80px;
+    border: none;
+    outline: none;
+    resize: vertical;
+    font-family: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.characterlimit-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3%;
+    width: 100%;
+}
+
+.tweet-button {
+    background-color: #76c5f5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 28px;
+    width: 60px;
+}
+
+.tweet-display {
+    display: flex;
+    gap: 3%;
+    border-top: 1px solid #EBECF0;
+    padding-top: 10px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.tweet-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tweet-author {
+    font-weight: bold;
+    margin: 0;
+}
+
+.tweet-handle {
+    font-weight: normal;
+    color: gray;
+    font-size: 14px;
+}
+
+.tweet-text {
+    margin: 5px 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.tweet-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.tweet-icons span {
+    margin-top: 2%;
+    margin-bottom: -1%;
+    line-height: 1;
+    vertical-align: bottom;
+    display: inline-block;
+}
